@@ -56,7 +56,7 @@ yarn start
 
 * [Bryan Anthua](https://github.com/bamml)
 
-* Edgar Arellano
+* [Edgar Arellano](https://github.com/edx04)
 
 * Emmanuel Moreno
 
