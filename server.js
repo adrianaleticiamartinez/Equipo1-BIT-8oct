@@ -24,8 +24,7 @@ app.use('/', authRoutes);
 // Middleware: Root Point
 app.use(express.static(path.join(__dirname, 'public/')))
 app.use('/', (req, res, next) => {
-    res.write('BBVA API');
-    res.end();
+    res.sendFile('public/index.html', {root: __dirname});
 });
 
 // Middleware: Handling Errors
