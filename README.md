@@ -55,3 +55,11 @@ yarn start
 ## Developers
 
 * [Bryan Anthua](https://github.com/bamml)
+
+* Edgar Arellano
+
+* Emmanuel Moreno
+
+* Daniel Cuellar
+
+* Eduardo Valle
