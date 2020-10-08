@@ -1,5 +1,8 @@
 // --- REQUIRES
 const express = require('express');
+// const mongoose = require('mongoose'); TODO: Make connection to DB
+const authRoutes = require('./routes/auth');
+const path = require('path')
 
 // --- INIT}
 const app = express();
@@ -15,7 +18,11 @@ app.use((req, res, next) => {
     next();
 });
 
+// Middleware: Routing
+app.use('/', authRoutes);
+
 // Middleware: Root Point
+app.use(express.static(path.join(__dirname, 'public/')))
 app.use('/', (req, res, next) => {
     res.write('BBVA API');
     res.end();
