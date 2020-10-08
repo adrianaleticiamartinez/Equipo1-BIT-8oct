@@ -1,11 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BBVA API</title>
 </head>
+
 <body>
-    <h1>Welcome API BBVA</h1>
+    <h3>Formulario</h3>
+    <img src="img/bbva.jpg" alt="" width="200">
+
+    <form name="registro" onsubmit="return validar();" method="POST" action="validar.php">
+
+        <table>
+            <tr>
+                <td>Usuario</td>
+                <td>
+                    <input type="text" name="usuario" id="usuario" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Autentificacion</td>
+                <td>
+                    <input type="password" name="contra" id="contra" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Perfil</td>
+                <td>
+                    <select name="perfil " id="perfil">
+                    <option value="manager">Manager</option>
+                    <option value="validador">Validador</option>
+                    <option value="Restringido">Restringido</option>
+                
+                </select>
+            </tr>
+
+
+
+
+        </table>
+        <input type="submit" onclick="obtenerdatos()" value="Enviar" id="enviar">
+        <p>
+
+
+
+        </p>
+        <img src="img/bbva.jpg" alt="" width="200">
+        <p></p>
+        <table border="1">
+            <tr>
+                <td>IdCliente</td>
+                <td>
+                    <p>marco</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Apellido paterno</td>
+                <td>
+                    <p>rtwaa</p>
+            </tr>
+            <tr>
+                <td>Apellido materno</td>
+                <td>
+                    <p>dsadsd</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Fecha de nacimiento</td>
+                <td>
+                    <p>16/08/1998</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Sexo</td>
+                <td>
+                    <p>M</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Segmento</td>
+                <td>
+                    <p>2</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Nacionalidad</td>
+                <td>
+                    <p>Extranjero</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Sexo</td>
+                <td>
+                    <p>M</p>
+                </td>
+            </tr>
+            <tr>
+                <td>RFC</td>
+                <td>
+                    <p>VALE976815FJSLXC25</p>
+                </td>
+            </tr>
+            <tr>
+                <td>TIPOid</td>
+                <td>
+                    <p>INE/IFE</p>
+                </td>
+            </tr>
+            <tr>
+                <td>NumeroID</td>
+                <td>
+                    <p>01ss</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Cuenta</td>
+                <td>
+                    <p>0012336525</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Correo</td>
+                <td>
+                    <p>Marc0@gmail.com</p>
+                </td>
+            </tr>
+
+
+
+
+        </table>
+
+
+
+    </form>
 </body>
+
 </html>
