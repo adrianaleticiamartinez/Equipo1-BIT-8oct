@@ -1,0 +1,18 @@
+{
+  "name": "Equipo1-BIT-8oct",
+  "version": "0.1.0",
+  "description": "Reto Hackathon",
+  "main": "server.js",
+  "repository": "git@github.com:adrianaleticiamartinez/Equipo1-BIT-8oct.git",
+  "author": "Bryan Anthua <bryananthua.m@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
